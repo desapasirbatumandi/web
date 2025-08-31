@@ -10,7 +10,8 @@
       font-family: 'Segoe UI', sans-serif;
       background-color: #f9f9f9;
       color: #333;
-      padding-top: 60px; /* Tambahan agar konten tidak tertutup navbar */
+      container: 30px;
+      
     }
 
     header {
@@ -18,17 +19,14 @@
       color: white;
       padding: 20px 0;
       text-align: center;
+     
     }
-
     nav {
-      position: fixed; /* Kunci di atas */
-      top: 0;
-      width: 100%;
       background-color: #34495e;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      z-index: 1000; /* Pastikan di atas konten lain */
+      
     }
 
     nav a {
@@ -56,7 +54,6 @@
       border-bottom: 2px solid #ccc;
       padding-bottom: 10px;
     }
-
     footer {
       background-color: #2653b3;
       color: white;
@@ -109,17 +106,83 @@
 
   <div class="container">
 
-    <!-- Section content tetap sama -->
-    <!-- (Potong di sini jika tidak perlu seluruhnya lagi) -->
+    <section id="profil" class="section">
+      <h2>Profil Desa</h2>
+      <p align="justify">
+    Desa Pasir Batu Mandi merupakan salah satu desa yang terletak di Kecamatan Sungai Lala, Kabupaten Indragiri Hulu, Provinsi Riau, dengan luas wilayah sekitar 4.171 hektar dan jumlah penduduk sebanyak 673 jiwa yang terdiri dari 249 kepala keluarga. Desa ini memiliki potensi besar di sektor pertanian dan perkebunan, yang menjadi sumber penghidupan utama masyarakat setempat. Beberapa komoditas unggulan yang dibudidayakan di desa ini antara lain kelapa sawit, jagung, labu, serta berbagai tanaman hortikultura lainnya yang tumbuh subur berkat kondisi tanah yang mendukung dan ketersediaan sumber air dari Sungai Indragiri. Pemerintah desa aktif menjalankan berbagai program ketahanan pangan, salah satunya melalui pembagian ratusan bibit pohon durian kepada warga, yang tidak hanya bertujuan meningkatkan ketersediaan pangan bergizi tetapi juga memberikan nilai ekonomi jangka panjang bagi masyarakat. Selain sektor pertanian, Pasir Batu Mandi juga memiliki semangat gotong royong yang tinggi serta struktur pemerintahan desa yang solid, yang terus mendorong pembangunan infrastruktur dan peningkatan kualitas hidup warganya. Dengan potensi alam yang melimpah dan dukungan kebijakan desa yang berpihak pada kesejahteraan masyarakat, Desa Pasir Batu Mandi terus tumbuh menjadi desa yang mandiri, produktif, dan berdaya saing.
 
+      </p>
+    </section>
+
+    <section id="pendidikan" class="section">
+      <h2>Pendidikan</h2>
+
+      <p><strong>Sekolah yang Ada di Desa Pasir Batu Mandi</strong></p>
+      <p align="justify"> SD Negeri 005 Pasir Batu Mandi merupakan satu‑satunya sekolah dasar yang secara resmi tercatat berada di Desa Pasir Batu Mandi. Dengan fasilitas dasar, akreditasi A, dan jumlah siswa sekitar 97, sekolah ini menjadi pusat pendidikan formal di desa. Untuk jenjang pendidikan yang lebih tinggi (SMP dan seterusnya), 
+        kemungkinan siswa akan mengakses sekolah di luar desa, seperti di pusat kecamatan atau desa-desa tetangga.</p>
+      <ul>
+        <li>Status: Negeri, Akreditasi A</li>
+        <li>Tahun Berdiri: 1983</li>
+        <li>Siswa: 97 (48 L, 49 P)</li>
+        <li>Fasilitas: 7 kelas, listrik PLN, internet 300 Mbps</li>
+      </ul>
+    </section>
+
+    <section id="tentang" class="section">
+      <h2>Tentang Desa</h2>
+      <p align="justify">
+        Desa Pasir Batu Mandi memiliki visi menjadi desa yang mandiri, berbudaya, dan lestari.
+        Sektor utama meliputi pertanian, perkebunan, dan peternakan rakyat.
+        Pemerintah desa juga aktif dalam pembangunan infrastruktur dan pendidikan masyarakat.
+        Desa ini memiliki potensi besar di sektor pertanian dan perkebunan, yang menjadi sumber penghidupan utama masyarakat setempat. 
+        Beberapa komoditas unggulan yang dibudidayakan di desa ini antara lain kelapa sawit, jagung, labu, serta berbagai tanaman hortikultura lainnya yang tumbuh subur berkat kondisi tanah yang mendukung dan ketersediaan sumber air dari Sungai Indragiri. Pemerintah desa aktif menjalankan berbagai program ketahanan pangan, salah satunya melalui pembagian ratusan bibit pohon durian kepada warga,
+        yang tidak hanya bertujuan meningkatkan ketersediaan pangan bergizi tetapi juga memberikan nilai ekonomi jangka panjang bagi masyarakat
+      </p>
+    </section>
+
+    <section id="galeri" class="section">
+      <h2>Galeri </h2>
+      <div class="gallery">
+        <img src="img/lapangan volly .jpg"alt="Jalan Desa">
+        <img src="img/Lapangan volly 2 .jpg"alt="Jalan Desa">
+        <img src="img/SD .jpg"alt="Jalan Desa">
+        <img src="img/SD 2 .jpg"alt="Jalan Desa">
+        <img src="img/Jalan .jpg"alt="Jalan Desa">
+        <img src="img/jalan rusak 2 .jpg"alt="Jalan Desa">
+        <img src="img/sungai .jpg" alt="Pemandangan Alam">
+        <img src="img/sawit 2.jpg" alt="Ladang atau Sawah">
+      </div>
+  
+    </section>
+    <section id="lokasi-demografi" class="section">
+
+      <h2>Lokasi & Demografi</h2>
+      <p>
+<ul align="justify"><li>Desa ini terletak di Kecamatan Sungai Lala, Kabupaten Indragiri Hulu, Provinsi Riau, dan dilintasi 
+        oleh Sungai Indragiri di bagian barat</li>  
+<li>Dengan luas wilayah sekitar 4.171 hektar, desa ini terdiri dari 249 kepala keluarga (KK) dan total penduduk 673 jiwa (339 laki‑laki dan 344 perempuan) </li>
+<li>Batas geografis:</li>
+<li>Utara: Desa Paya Luas</li>
+<li>Selatan: Desa Morong dan Pasir Bongkal</li>
+<li>Timur: Pasir Selabau</li>
+<li>Barat: Pasir Kelampaian </li>
+Jarak ke pusat kecamatan sekitar 12 km, ke pusat kabupaten sekitar 40 km, dan ke ibu kota provinsi Riau sekitar 182 km
+      </p>
+    </section>
+    <section id="kontak" class="section">
+      <h2>Kontak </h2>
+      <p><strong>Alamat:</strong> Desa Pasir Batu Mandi, Kec. Sungai Lala, Kab. Indragiri Hulu, Riau</p>
+      <p><strong>Maps:</strong> <a href="https://maps.app.goo.gl/dm2rWjQB5wEeAvT1A?g_st=atm" target="_blank">Lihat di Google Maps</a>
+      <p><strong>Email:</strong> <a href="mailto:p\desapasirbatumandi2025@gmail.com">desapasirbatumandi2025@gmail.com</a></p>
+      <p><strong>Telepon:</strong> 083802565456</p>
+    </section>
   </div>
+<footer>
+        <p>&copy; 2025 KKN Pasir Batu Mandi</p>
+        <p>Follow kami di <a href="https://www.instagram.com/kkn_desapasirbatumandi_2025?igsh=Nmc4bHd5MWdvbWV1" target="_blank">
+            kkn_desapasirbatumandi_2025</a></p>
+    </footer>
 
-  <footer>
-    <p>&copy; 2025 KKN Pasir Batu Mandi</p>
-    <p>Follow kami di <a href="https://www.instagram.com/kkn_desapasirbatumandi_2025?igsh=Nmc4bHd5MWdvbWV1" target="_blank">
-        kkn_desapasirbatumandi_2025</a></p>
-  </footer>
-
-  <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
